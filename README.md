@@ -2,7 +2,7 @@
 A portfolio website.
 
 
-#Project Requirements
+# Project Requirements
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -17,6 +17,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-#Mockup image:
+# Mockup image:
 
-[project mockup gif](https://github.com/charlestietjen/Trilogy-HW-Week-2/blob/main/homeworkdemo.gif?raw=true)
+[project mockup gif(https://github.com/charlestietjen/Trilogy-HW-Week-2/blob/main/homeworkdemo.gif?raw=true)]
