@@ -2,37 +2,85 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/stylesheet.css">
         <title>Charles Tietjen - Portfolio</title>
     </head>
     <body>
         <header>
-            <div> <!--Div w/Nav, flex in-line-->
+            <div class="title"> <!--Div w/Nav, flex in-line-->
+                <div>
+                    <h1>Charles Tietjen</h1>
+                </div>
+                <nav>
+                    <a href="#AboutMe">About Me</a>
+                    <a href="#Work">My Work</a>
+                    <a href="#ContactMe">Social Links</a>
+                </nav>
             </div>
-            <div> <!--Div Subtitle-->
+            <div class="subtitle"> <!--Div Subtitle-->
+                <h2>Work Portfolio</h2>
             </div>
         </header>
-        <article> <!--About me-->
-            <aside><!--Side heading-->
+        <article id="AboutMe"> <!--About me-->
+            <aside class="side-heading"><!--Side heading-->
+                <h3>About Me</h3>
             </aside>
-            <div> <!--About me content-->
+            <div class="cat-content"> <!--About me content-->
+                <div>
+                    <img class="me-picture" src="./assets/images/manandhisboy.jpg" alt="A picture of me and my son" />
+                </div>
+                <p>Howdy! My name's Charles, I'm an aspiring developer of many talents currently studying full stack with a focus on web development. You can also find me kicking
+                    around in hobbyist video game development and video game modding scenes. 
+                    <br />
+                    Since this is my portfolio naturally you'll find examples of my work further below!
+                </p>
             </div>
         </article>
-        <main>
-            <aside> <!--Side heading-->
-
+        <main id="Work">
+            <aside class="side-heading"> <!--Side heading-->
+                <h3>My Work</h3>
             </aside>
-            <div> <!--Work content-->
-
+            <div class="cat-content work-content"> <!--Work content-->
+                <a href="https://www.nexusmods.com/skyrimspecialedition/mods/22960" target="_blank">
+                    <div class="mod-vpa work-img">
+                        <div>
+                            Mod - Various Player Actions
+                        </div>
+                    </div>
+                </a>
+                <a class="secondary-samples" href="https://www.nexusmods.com/skyrimspecialedition/mods/3427" target="_blank">
+                    <div class="mod-iw work-img">
+                        <div>
+                            Mod - Imbued Weapons
+                        </div>
+                    </div>
+                </a>
+                <a class="secondary-samples" href="https://charlestietjen.github.io/run-buddy/" target="_blank">
+                    <div class="mock-rb work-img">
+                        <div>
+                            Mock Website - Run Buddy
+                        </div>
+                    </div>
+                </a>
             </div>
         </main>
-        <footer> <!--Footer w/contact info-->
-            <aside> <!--side heading-->
-
+        <footer id="ContactMe"> <!--Footer w/contact info-->
+            <aside class="side-heading"> <!--side heading-->
+                <h3>My Socials</h3>
             </aside>
-            <div> <!--footer contact content-->
-
+            <div class="cat-content footer-content"> <!--footer contact content-->
+                <div>
+                    <a href="https://www.linkedin.com/in/charles-tietjen-001/" target="_blank"><img class="social-icon" src="./assets/images/linkedin-icon.png" alt="LinkedIn.com icon" /></a>
+                </div>
+                <div>
+                    <a href="https://github.com/charlestietjen" target="_blank"><img class="social-icon" src="./assets/images/github-icon.png" alt="Github.com icon" /></a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/charlesisadadnow/" target="_blank"><img class="social-icon" src="./assets/images/instagram-icon.png" alt="Instagram.com icon" /> </a>
+                </div>
+                <div>
+                    <a href="https://www.twitch.tv/lowlevelgoblinhours" target="_blank"><img class="social-icon" src="./assets/images/twitch-icon.png" alt="Twitch.tv icon" /></a>
+                </div>
             </div>
         </footer>
     </body>
