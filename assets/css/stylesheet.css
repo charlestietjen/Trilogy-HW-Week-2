@@ -24,7 +24,7 @@ body {
     position: sticky;
     padding: 20px 40px 20px 20px;
     background-color: var(--secondary-color);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 .title h1{
@@ -109,6 +109,7 @@ main a {
 
 main a:hover {
     border-color: black;
+    box-shadow: 2px 2px darkgrey;
 }
 
 .work-content {
@@ -119,17 +120,12 @@ main a:hover {
     margin: 5px 0 5px 0;
 }
 
-.mod-iw {
-    background-image: url("../images/work-mod-imbuedweapons.png");
-    background-size: cover;
-}
-
-.mock-rb {
-    background-image: url("../images/work-mock-runbuddy.png");
-    background-size: cover;
+.primary-sample {
+    margin: 0 5px 0 5px;
 }
 
 .secondary-samples {
+    margin: 5px 5px 5px 5px;
     width: 300px;
     height: 300px;
 }
@@ -139,19 +135,45 @@ main a:hover {
     background-size: cover;
     width: 100%;
     padding: 500px 0 0 0;
+    display: flex;
+    position: relative;
+}
+
+.work-img div {
+    background-color: rgba(169, 169, 169, 0.7);
+    color: var(--primary-color);
+    width: auto;
+    font-size: 15px;
+    position: absolute;
+    left: 3%;
+    bottom: 90%;
 }
 
 .mod-vpa div {
     background-color: rgba(169, 169, 169, 0.7);
     color: var(--primary-color);
-    width: 17%;
+    width: auto;
     font-size: 20px;
-    margin-left: 20px;
     position: absolute;
+    left: 3%;
+    bottom: 90%;
 }
 
+.mod-iw {
+    background-image: url("../images/work-mod-imbuedweapons.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
 
-
+.mock-rb {
+    background-image: url("../images/work-mock-runbuddy.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
 
 /*Contact */
 footer {
@@ -159,6 +181,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px 0 0 0;
+    background-color: var(--secondary-color);
 }
 
 .footer-content {
