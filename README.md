@@ -24,8 +24,8 @@ https://charlestietjen.github.io/Trilogy-HW-Week-2/
 
 # Screenshot of deployed page:
 
-![image](blob/main/project-screenshot.png)
+![image](project-screenshot.png?raw=true)
 
 # Mockup image:
 
-![image](blob/main/homeworkdemo.gif?raw=true)
+![image](homeworkdemo.gif?raw=true)
